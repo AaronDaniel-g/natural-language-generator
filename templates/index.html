@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>NLG Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Natural Language Generator</h1>
+
+        <form method="POST">
+
+            <input type="text" name="topic" placeholder="Enter any topic..." required>
+
+            <button type="submit">Generate</button>
+
+        </form>
+
+        {% if result %}
+
+        <div class="output">
+
+            <h3>Generated Text</h3>
+
+            <p>{{ result }}</p>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</body>
+
+</html>
