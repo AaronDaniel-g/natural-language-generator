@@ -43,7 +43,7 @@ natural-language-generator/
 ### Clone Repository
 
 ```bash
-git clone YOUR_GITHUB_REPO_LINK
+git clone https://github.com/AaronDaniel-g/natural-language-generator.git
 ```
 
 ### Move Into Project Folder
